@@ -2,7 +2,7 @@ function right () {
     hackbitmotors.MotorRunDual(
     hackbitmotors.Motors.M1A,
     30,
-    hackbitmotors.Motors.M2B,
+    hackbitmotors.Motors.M1B,
     150
     )
 }
@@ -10,7 +10,7 @@ function back () {
     hackbitmotors.MotorRunDual(
     hackbitmotors.Motors.M1A,
     -150,
-    hackbitmotors.Motors.M2B,
+    hackbitmotors.Motors.M1B,
     -150
     )
 }
@@ -18,7 +18,7 @@ function front () {
     hackbitmotors.MotorRunDual(
     hackbitmotors.Motors.M1A,
     150,
-    hackbitmotors.Motors.M2B,
+    hackbitmotors.Motors.M1B,
     150
     )
 }
@@ -26,7 +26,7 @@ function left () {
     hackbitmotors.MotorRunDual(
     hackbitmotors.Motors.M1A,
     150,
-    hackbitmotors.Motors.M2B,
+    hackbitmotors.Motors.M1B,
     30
     )
 }
